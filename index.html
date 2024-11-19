@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Redux Demo</title>
+    <style>
+        #mood {
+            font-size: 2em;
+            margin: 20px;
+        }
+        .mood-button {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="mood">(•_•)</div>
+    <button class="mood-button" data-mood="happy">Happy</button>
+    <button class="mood-button" data-mood="sad">Sad</button>
+    <button class="mood-button" data-mood="angry">Angry</button>
+    <button class="mood-button" data-mood="surprised">Surprised</button>
+    <button class="mood-button" id="random-mood">Random Mood</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.1/redux.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
